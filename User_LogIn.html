@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>User Login</title>
+    
+    <style type="text/css">
+        
+		h1{color:red}
+		h2{color:blue}
+		.background{
+            height:850px;
+           
+            border :2px solid black;
+            position: relative;
+        
+            
+        }
+		.background .bg{
+		/* The image used */
+        background-image: url("image.jpg");
+  	    opacity:.5;
+        filter: alpha(opacity=20);
+	    position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        /* Full height */
+        height: 100%; 
+		/* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+	 
+    </style>
+    </head>
+    <body> 
+        <div class="background">
+           <div class="bg"></div>
+        <div align="center" style="opacity:1.0;" >
+            <form method="post" action="validate.php">
+                <table cellpadding="20" cellspacing="1" border="0" width="70%">
+                    <tr><td colspan="4"></td></tr>
+                     <tr><td colspan="4"></td></tr>
+                     
+                    
+                    <tr><td colspan="4" align="top"><marquee><h2><b><i><strong>eBook Rental Shop</strong></b></i></h2></marquee></td></tr><br/>
+					<tr><td<center><h1><strong>Log In</strong></h1></center></td></tr>
+                <tr><td width="20%"></td><td><strong><font color="red">Enter Your Username</font></strong></td><td><input type="text" name="txt_uid"></td><td width="20%"></td></tr>
+                <tr><td width="20%"></td><td><strong><font color="red">Enter your Password</font></strong></td> <td><input type="password" name="txt_pass"></td><td width="20%"></td></tr>
+                <tr><td colspan="4" align="center"><input type="submit" value="SUBMIT"></td></tr>
+                    
+                </table>    
+            </form>
+            
+        
+            </div>
+        </div>
+    </body>
+</html>

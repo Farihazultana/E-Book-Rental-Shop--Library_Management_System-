@@ -1,0 +1,24 @@
+E-Book Rental Shop
+
+Its a project of online book renting website
+which gives advantages of Library Management System, Kindle, Rokomary.com and so on.
+Library Management System can give access to the books of specifically one library, 
+Kindle provides books only to the Kindle electronic device users, Rokomary.com only sells 
+hard copies. But E-Book Rental shop can give access to all the books of all the library in
+Bangladesh, with any type of internet supported electronic devices, and thats why soft copies 
+or pdf's are available ,so that reading any kinda book is no longer hardship for any 
+bookworms. Besides, its cheaper,time and space safer too.
+
+Features:
+1.User & Admin control
+2.Book entry & Order Taking
+3.Log in & Sign up for Users
+4.Vast range of available books
+5.Online book renting options of multiple rental periods
+6.Parmanently book buy (download) option
+7.Search option for books from all the libraries
+8.Ratings of books,writers,publishers,libraries
+9.Users private library of their read books and wish list. 
+
+Exclusive Feature:
+# Brings up New Writers to fellow readers.
